@@ -12,6 +12,8 @@
     float: left;
     padding-left: 55px;
     padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
@@ -23,7 +25,10 @@
 
 .header__content {
     float: right;
-    padding: 25px 10em 25px 5em;
+    padding-right: 55px;
+    padding-left: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin: auto;
 }
 
