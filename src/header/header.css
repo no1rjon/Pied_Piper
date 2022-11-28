@@ -1,0 +1,53 @@
+.header {
+    background-color: #007765;
+    overflow: hidden;
+    position: sticky;
+    background-size: 100%;
+    margin: 0%;
+    padding: 0rem;
+    
+}
+
+.header__logo {
+    float: left;
+    padding-left: 55px;
+    padding-right: auto;
+    margin: auto;
+}
+
+.header__logo_sm img{
+    width: 184px;
+    height: 45px;
+    
+}
+
+.header__content {
+    float: right;
+    padding: 25px 10em 25px 5em;
+    margin: auto;
+}
+
+.header__content li {
+    display: inline;
+    padding-right: 8px;
+    margin-right: 8px;
+    border-right: white 2px solid;
+}
+
+.header__content li:last-child{
+    border-right: none;
+}
+
+.header__content a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header__content a:hover {
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
