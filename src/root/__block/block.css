@@ -1,0 +1,48 @@
+
+.root__block {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 80px;
+}
+
+.root__block h4, h5{
+    text-align: center;
+}
+
+.root__block h4{
+    color: #007765;
+}
+
+.root__block_header {
+    block-size: auto;
+}
+
+.root__block_header img{
+    width: 168px;
+    height: 168px;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0;
+}
+
+
+.root__block_body {
+    block-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.root__block_body h4{
+    padding: 0;
+    margin: 0;
+}
+
+.root__block_footer {
+    block-size: auto;
+}
+
+.root__block_footer h5 {
+    padding: 0;
+    margin: 0;
+}

@@ -8,6 +8,14 @@ body {
     font-family: 'Quicksand', sans-serif;
   }
 
+.float_l {
+  float: left;
+}
+
+.clear {
+  clear:both;
+}
+
 .fix-header {
   width: 100px;
   height: 50px;
@@ -17,4 +25,10 @@ body {
   width: 30px;
   height: 50px;
 
+}
+
+.ppcoin {
+  width: 115px;
+  height: 115px;
+  margin-right: 2em;
 }

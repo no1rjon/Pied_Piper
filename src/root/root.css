@@ -1,3 +1,5 @@
+@import url(__block/block.css);
+
 .root {
     margin: 0;
     padding-top: 4em;
@@ -7,6 +9,11 @@
 .root_size_l {
     padding-top: 4em;
     padding-bottom: 4em;
+}
+
+.root_size_s {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
 }
  
 .root_background_f {
@@ -18,9 +25,23 @@
     background-image: url(/img/backgrounds/background_2.png);
 }
 
+.root_background_gray {
+    background-color: #EEEEEE;
+}
+
+.root_background_dark {
+    background-color: #333333;
+}
+
 .root__content-container {
     max-width: 1219px;
     padding: 10px 55px 10px 55px;
+    margin: auto;
+}
+
+.root__content-container_small {
+    max-width: 1219px;
+    padding: 10px 35% 10px 35%;
     margin: auto;
 }
 
@@ -35,6 +56,17 @@
 .root__content-container h3 {
     font-size: 48px;
 }
+
+.root__content-container h4 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.root__content-container h5 {
+    font-size: 18px;
+    font-style: italic;
+}
+
 
 .root__content-container p {
     font-size: 32px;

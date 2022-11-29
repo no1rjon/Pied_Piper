@@ -14,3 +14,16 @@
 .text_italic {
     font-style: italic;
 }
+
+.text_bold {
+    font-weight: bold;
+}
+
+.text_bolder {
+    font-weight: bold;
+}
+
+.text_clear {
+    font-weight: 200;
+    font-style: normal;
+}
