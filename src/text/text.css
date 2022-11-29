@@ -1,0 +1,16 @@
+
+.text_center {
+    text-align: center;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_green {
+    color: #007765;
+}
+
+.text_italic {
+    font-style: italic;
+}

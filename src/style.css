@@ -1,6 +1,20 @@
 @import url(header/header.css);
+@import url(root/root.css);
+@import url(text/text.css);
 
 body {
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Quicksand', sans-serif;
   }
+
+.fix-header {
+  width: 100px;
+  height: 50px;
+}
+
+.hook {
+  width: 30px;
+  height: 50px;
+
+}

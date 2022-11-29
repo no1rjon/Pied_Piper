@@ -1,0 +1,41 @@
+.root {
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 8em;
+}
+
+.root_size_l {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+ 
+.root_background_f {
+    background-image: url(/img/backgrounds/background_1.png);
+    background-size: cover;
+}
+
+.root_background_s {
+    background-image: url(/img/backgrounds/background_2.png);
+}
+
+.root__content-container {
+    max-width: 1219px;
+    padding: 10px 55px 10px 55px;
+    margin: auto;
+}
+
+.root__content-container h1 {
+    font-size: 72px;
+}
+
+.root__content-container h2 {
+    font-size: 64px;
+}
+
+.root__content-container h3 {
+    font-size: 48px;
+}
+
+.root__content-container p {
+    font-size: 32px;
+}
